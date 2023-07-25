@@ -1,0 +1,21 @@
+{
+  "name": "western-report-service",
+  "version": "1.0.0",
+  "description": "The backend service of Western Report",
+  "main": "app.js",
+  "repository": "https://github.com/jessicaliu6/western-report-service.git",
+  "author": "Jessica Liu",
+  "private": false,
+  "scripts": {
+    "start": "node app.js"
+  },
+  "dependencies": {
+    "express": "^4.18.2",
+    "express-fileupload": "^1.4.0",
+    "nodemailer": "^6.9.4",
+    "pg": "^8.11.1"
+  },
+  "engines": {
+    "node": ">=14"
+  }
+}
